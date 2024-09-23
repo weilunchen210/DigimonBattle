@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="1089.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DigimonBattle.view.InstructionsController">
+   <children>
+      <ImageView fitHeight="613.0" fitWidth="1089.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BackgroundMainMenu.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="552.0" layoutX="34.0" layoutY="31.0" opacity="0.82" stroke="BLACK" strokeType="INSIDE" width="1022.0" />
+      <Text fill="WHITE" layoutX="486.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="993.0" layoutY="44.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Text fill="WHITE" layoutX="89.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. This is a two Player turn-based Game">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="89.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Players can choose their digimon when they click on play">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="89.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Once the digimon is chosen, the game will start">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="89.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Player 1 will start first and then player 2's turn will start after player 1's move">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. The turn will keep alternating until a digimon loses">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. Game ends when a digimon loses">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Digimon can only evolve when it has 70% HP and 3 Skill Point">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Skills used have types that can deal more or less damage based on the elemental type of the Digimon">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <VBox layoutX="102.0" layoutY="351.0" prefHeight="200.0" prefWidth="253.0" style="-fx-background-color: black; -fx-border-color: white;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" Fire - &gt; Earth" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" Water -&gt; Fire" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" Lightning -&gt; Water" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" Earth -&gt; Lightning" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" * -&gt; means counters" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="253.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Text fill="WHITE" layoutX="90.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Scratch increases skill point by one">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

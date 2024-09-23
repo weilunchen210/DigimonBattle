@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="1089.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DigimonBattle.view.DigimonSelectionController">
+   <children>
+      <ImageView fitHeight="613.0" fitWidth="1089.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BackgroundMainMenu.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="29.0" layoutY="47.0" mnemonicParsing="false" onAction="#backToInputName" text="Back" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="406.0" layoutX="36.0" layoutY="170.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" width="1018.0" />
+      <ImageView fitHeight="277.0" fitWidth="224.0" layoutX="50.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/agumon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="277.0" fitWidth="224.0" layoutX="321.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/gabumon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="259.0" fitWidth="224.0" layoutX="623.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/gotsumon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="259.0" fitWidth="224.0" layoutX="803.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/veemon.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="122.0" layoutX="399.0" layoutY="9.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" width="327.0" />
+      <Text layoutX="429.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digimon Selection">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button layoutX="114.0" layoutY="219.0" mnemonicParsing="false" onAction="#selectAgumon" prefHeight="39.0" prefWidth="96.0" text="Agumon" />
+      <Button layoutX="385.0" layoutY="219.0" mnemonicParsing="false" onAction="#selectGabumon" prefHeight="39.0" prefWidth="96.0" text="Gabumon" />
+      <Button layoutX="641.0" layoutY="219.0" mnemonicParsing="false" onAction="#selectGotsumon" prefHeight="39.0" prefWidth="96.0" text="Gotsumon" />
+      <Button layoutX="867.0" layoutY="219.0" mnemonicParsing="false" onAction="#selectBiyomon" prefHeight="39.0" prefWidth="96.0" text="Veemon" />
+      <Text fx:id="turnToPickText" fill="RED" layoutX="410.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="304.49755343049765">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Group fx:id="digimonSelectionInfo" layoutX="-23.0" layoutY="10.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="543.0" layoutX="39.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="1040.0" />
+            <Text layoutX="524.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digimon Info" />
+            <ImageView fitHeight="183.0" fitWidth="175.0" layoutX="108.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/agumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="165.0" fitWidth="157.0" layoutX="357.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/gabumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="163.0" fitWidth="177.0" layoutX="635.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/gotsumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="854.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/veemon.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1004.0" layoutY="53.0" mnemonicParsing="false" onAction="#exitInfo" text="Back" />
+            <VBox layoutX="108.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Agumon" textAlignment="CENTER" wrappingWidth="176.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Fire" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fireball: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Flame Drop: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Greymon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 7" />
+               </children>
+            </VBox>
+            <VBox layoutX="344.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gabumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Water" wrappingWidth="96.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Waterfall: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Garurumon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 7" />
+               </children>
+            </VBox>
+            <VBox layoutX="594.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gotsumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Earth" wrappingWidth="92.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 4" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rock Throw: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mud Drop: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Onixmon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 175.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 4" />
+               </children>
+            </VBox>
+            <VBox layoutX="835.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Veemon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Lightning" wrappingWidth="130.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 6" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lightning Strike: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thunder: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thundermon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 8" />
+               </children>
+            </VBox>
+         </children>
+      </Group>
+      <MenuBar layoutX="-1.0" layoutY="-3.0">
+        <menus>
+          <Menu mnemonicParsing="false" onAction="#showInfo" text="Menu">
+            <items>
+              <MenuItem mnemonicParsing="false" text="DigimonInfo" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

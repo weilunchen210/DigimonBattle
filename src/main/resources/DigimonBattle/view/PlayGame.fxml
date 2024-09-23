@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="1089.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DigimonBattle.view.PlayGameController">
+   <children>
+      <ImageView fitHeight="636.0" fitWidth="1096.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BackgroundBattle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player1Digimon" fitHeight="264.0" fitWidth="235.0" layoutX="112.0" layoutY="273.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="player2Digimon" fitHeight="264.0" fitWidth="236.0" layoutX="714.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar fx:id="player1HpBar" layoutX="55.0" layoutY="44.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" style="-fx-accent: green;" />
+      <ProgressBar fx:id="player2HpBar" layoutX="645.0" layoutY="44.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" style="-fx-accent: green;" />
+      <ImageView fx:id="action1" fitHeight="150.0" fitWidth="200.0" layoutX="262.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="action2" fitHeight="150.0" fitWidth="200.0" layoutX="635.0" layoutY="307.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="91.0" layoutX="412.0" layoutY="504.0" stroke="BLACK" strokeType="INSIDE" width="272.0" />
+      <Text fx:id="textAction" layoutX="439.0" layoutY="532.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="236.00000298023224">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <ImageView fx:id="action3" fitHeight="150.0" fitWidth="200.0" layoutX="142.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="action4" fitHeight="150.0" fitWidth="200.0" layoutX="750.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
+      <HBox fx:id="player1Buttons" layoutX="127.0" layoutY="114.0" prefHeight="117.0" prefWidth="235.0">
+         <children>
+            <VBox prefHeight="117.0" prefWidth="168.0">
+               <children>
+                  <Button fx:id="player1Button1" mnemonicParsing="false" onAction="#digimon1Action1" prefHeight="46.0" prefWidth="109.0" text="Button" />
+                  <Button fx:id="player1Button3" mnemonicParsing="false" onAction="#digimon1Action3" prefHeight="46.0" prefWidth="109.0" text="Button">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="117.0" prefWidth="149.0">
+               <children>
+                  <Button fx:id="player1Button2" mnemonicParsing="false" onAction="#digimon1Action2" prefHeight="46.0" prefWidth="108.0" text="Button" />
+                  <Button fx:id="player1Button4" mnemonicParsing="false" onAction="#digimon1Action4" prefHeight="46.0" prefWidth="109.0" text="Evolve">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="55.0" layoutY="74.0" prefHeight="18.0" prefWidth="129.0">
+         <children>
+            <ProgressBar fx:id="player1SkillPoint1" prefHeight="18.0" prefWidth="42.0" progress="0.0" style="-fx-accent: yellow;" />
+            <ProgressBar fx:id="player1SkillPoint2" prefHeight="18.0" prefWidth="43.0" progress="0.0" style="-fx-accent: yellow;" />
+            <ProgressBar fx:id="player1SkillPoint3" prefHeight="18.0" prefWidth="42.0" progress="0.0" style="-fx-accent: yellow;" />
+         </children>
+      </HBox>
+      <HBox layoutX="896.0" layoutY="74.0" prefHeight="18.0" prefWidth="121.0">
+         <children>
+            <ProgressBar fx:id="player2SkillPoint3" prefHeight="18.0" prefWidth="42.0" progress="0.0" style="-fx-accent: yellow;" />
+            <ProgressBar fx:id="player2SkillPoint2" prefHeight="18.0" prefWidth="43.0" progress="0.0" style="-fx-accent: yellow;" />
+            <ProgressBar fx:id="player2SkillPoint1" prefHeight="18.0" prefWidth="42.0" progress="0.0" style="-fx-accent: yellow;" />
+         </children>
+      </HBox>
+      <HBox fx:id="player2Buttons" layoutX="735.0" layoutY="114.0" prefHeight="117.0" prefWidth="235.0" visible="false">
+         <children>
+            <VBox prefHeight="117.0" prefWidth="168.0">
+               <children>
+                  <Button fx:id="player2Button1" mnemonicParsing="false" onAction="#digimon2Action1" prefHeight="46.0" prefWidth="109.0" text="Button" />
+                  <Button fx:id="player2Button3" mnemonicParsing="false" onAction="#digimon2Action3" prefHeight="46.0" prefWidth="109.0" text="Button">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="117.0" prefWidth="149.0">
+               <children>
+                  <Button fx:id="player2Button2" mnemonicParsing="false" onAction="#digimon2Action2" prefHeight="46.0" prefWidth="109.0" text="Button" />
+                  <Button fx:id="player2Button4" mnemonicParsing="false" onAction="#digimon2Action4" prefHeight="46.0" prefWidth="109.0" text="Evolve">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Group fx:id="player1ChatBubble" layoutX="378.0" layoutY="257.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-63.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/ChatBubble.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="digimon1Sound" layoutX="-19.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="126.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Group>
+      <Group fx:id="player2ChatBubble" layoutX="664.0" layoutY="257.0" visible="false">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-77.0" layoutY="-43.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/ChatBubble.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="digimon2Sound" layoutX="-33.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="116.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </Group>
+      <Text fx:id="textAction2" layoutX="439.0" layoutY="555.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="hpText2" fill="WHITE" layoutX="579.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="62.00002285838127" />
+      <Text fx:id="hpText1" fill="WHITE" layoutX="437.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="62.000022649765015" />
+      <Text fx:id="skillError" fill="RED" layoutX="463.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not Enough Skill Point" textAlignment="CENTER" visible="false" wrappingWidth="170.13671875">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text fx:id="evolveError" fill="RED" layoutX="429.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not Enough Skill Point or not below 70% HP" textAlignment="CENTER" visible="false" wrappingWidth="222.13671875">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Group fx:id="digimonInfo" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="543.0" layoutX="39.0" layoutY="32.0" opacity="0.84" stroke="BLACK" strokeType="INSIDE" width="1040.0" />
+            <Text layoutX="524.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digimon Info" />
+            <ImageView fitHeight="183.0" fitWidth="175.0" layoutX="108.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/agumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="165.0" fitWidth="157.0" layoutX="357.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/gabumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="163.0" fitWidth="177.0" layoutX="635.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/gotsumon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="854.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/veemon.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="108.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Agumon" textAlignment="CENTER" wrappingWidth="176.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Fire" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fireball: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Flame Drop: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Greymon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 7" wrappingWidth="76.84375" />
+               </children>
+            </VBox>
+            <VBox layoutX="344.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gabumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Water" wrappingWidth="96.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Waterfall: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Garurumon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 7" wrappingWidth="116.84375" />
+               </children>
+            </VBox>
+            <VBox layoutX="594.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gotsumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Earth" wrappingWidth="92.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 4" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rock Throw: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mud Drop: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Onixmon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 6" wrappingWidth="123.84375" />
+               </children>
+            </VBox>
+            <VBox layoutX="835.0" layoutY="318.0" prefHeight="213.0" prefWidth="178.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Veemon" textAlignment="CENTER" wrappingWidth="178.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100.0" wrappingWidth="104.13671875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Lightning" wrappingWidth="130.525390625" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 6" wrappingWidth="104.486328125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lightning Strike: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thunder: 2 Skill Point, 5 Power" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thundermon" textAlignment="CENTER" wrappingWidth="176.64453125" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 4" wrappingWidth="129.84375" />
+               </children>
+            </VBox>
+            <Button layoutX="1020.0" layoutY="53.0" mnemonicParsing="false" onAction="#exitInfo" text="Back" />
+         </children>
+      </Group>
+      <MenuBar layoutY="-1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showInfo" text="Digimon Info" />
+                  <MenuItem mnemonicParsing="false" onAction="#surrender" text="Surrender" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
