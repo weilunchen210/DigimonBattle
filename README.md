@@ -1,5 +1,5 @@
 # Digimon Battle
-This is a digimon battle turn-based game made using Scala, ScalaFX and SceneBuilder. 
+This is a digimon turn-based game made using Scala, ScalaFX and SceneBuilder. 
 
 ## Prerequisite
 - JDK: 1.8.0
