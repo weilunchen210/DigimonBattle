@@ -1,1 +1,169 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\prg2104_2.12-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\prg2104_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\agumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\agumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\BackgroundBattle.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\BackgroundBattle.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\BackgroundMainMenu.jpg[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\BackgroundMainMenu.jpg[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\bubble.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\bubble.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\ChatBubble.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\ChatBubble.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\fireball.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\fireball.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\flamedrop.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\flamedrop.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\gabumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\gabumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\garurumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\garurumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\gotsumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\gotsumon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\greymon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\greymon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\lightningstrike.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\lightningstrike.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\muddrop.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\muddrop.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\onixmon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\onixmon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\rockthrow.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\rockthrow.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\thunder.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\thunder.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\thundermon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\thundermon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\trophy.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\trophy.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\veemon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\veemon.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\waterfall.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\waterfall.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\image\WeaknessChart.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\image\WeaknessChart.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\MainApp$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\MainApp$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\MainApp$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\MainApp$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\MainApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\MainApp$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\MainApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Action.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Action.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\BasicAttack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\BasicAttack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Bubble.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Bubble.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\FireBall.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\FireBall.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\FlameDrop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\FlameDrop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\LightningStrike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\LightningStrike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\MudDrop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\MudDrop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\RockThrow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\RockThrow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Scratch.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Scratch.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Thunder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Thunder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Ultimate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Ultimate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Action\Waterfall.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Action\Waterfall.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\AdultForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\AdultForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Agumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Agumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Digimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Digimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\EarthDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\EarthDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\FireDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\FireDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Gabumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Gabumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Garurumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Garurumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Gotsumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Gotsumon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Greymon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Greymon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\LightningDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\LightningDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Onixmon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Onixmon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Thundermon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Thundermon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\Veemon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\Veemon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Digimon\WaterDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Digimon\WaterDigimon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Game[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Game[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Game\Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Game\Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Player[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Player[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\Player\Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\Player\Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\SharedMemory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\SharedMemory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\model\SharedMemory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\model\SharedMemory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\DigimonSelection.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\DigimonSelection.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\DigimonSelectionController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\DigimonSelectionController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\DigimonSelectionController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\DigimonSelectionController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\GameOver.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\GameOver.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\GameOverController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\GameOverController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\GameOverController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\GameOverController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\Instructions.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\Instructions.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\InstructionsController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\InstructionsController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\InstructionsController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\InstructionsController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\MainMenu.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\MainMenu.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\MainMenuController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\MainMenuController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\MainMenuController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\MainMenuController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayerNameInput.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayerNameInput.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayerNameInputController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayerNameInputController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayerNameInputController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayerNameInputController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayGame.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayGame.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayGameController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayGameController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DigimonBattle\view\PlayGameController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\weilun\Coding\digimon backup\DigimonBattle\target\scala-2.12\classes\DigimonBattle\view\PlayGameController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

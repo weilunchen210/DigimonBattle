@@ -43,12 +43,12 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="90.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. The turn will keep alternating until a digimon loses">
+      <Text fill="WHITE" layoutX="90.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. The turn will keep alternating until a digimon's hp drop to 0">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="90.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. Game ends when a digimon loses">
+      <Text fill="WHITE" layoutX="90.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. The winner will be the player with the digimon that is still alive">
          <font>
             <Font size="18.0" />
          </font>

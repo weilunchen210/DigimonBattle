@@ -171,11 +171,11 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Agumon" textAlignment="CENTER" wrappingWidth="176.13671875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Fire" />
+                  <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Fire" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fireball: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fireball: 1 Skill Point, 3 Power " />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Flame Drop: 2 Skill Point, 5 Power" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Greymon" textAlignment="CENTER" wrappingWidth="176.64453125" />
@@ -187,11 +187,11 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gabumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 125.0" wrappingWidth="104.13671875" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Water" wrappingWidth="96.525390625" />
+                  <Text fill="#0062ff" strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Water" wrappingWidth="96.525390625" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 5" wrappingWidth="104.486328125" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble: 1 Skill Point, 3 Power " />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Waterfall: 2 Skill Point, 5 Power" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Garurumon" textAlignment="CENTER" wrappingWidth="176.64453125" />
@@ -203,11 +203,11 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gotsumon" textAlignment="CENTER" wrappingWidth="178.13671875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 150.0" wrappingWidth="104.13671875" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Earth" wrappingWidth="92.525390625" />
+                  <Text fill="#00ff13" strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Earth" wrappingWidth="92.525390625" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 4" wrappingWidth="104.486328125" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rock Throw: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rock Throw: 1 Skill Point, 3 Power " />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mud Drop: 2 Skill Point, 5 Power" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Onixmon" textAlignment="CENTER" wrappingWidth="176.64453125" />
@@ -219,11 +219,11 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Veemon" textAlignment="CENTER" wrappingWidth="178.13671875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100.0" wrappingWidth="104.13671875" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Lightning" wrappingWidth="130.525390625" />
+                  <Text fill="#7b00ed" strokeType="OUTSIDE" strokeWidth="0.0" text="Type: Lightning" wrappingWidth="130.525390625" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack: 6" wrappingWidth="104.486328125" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actions:" wrappingWidth="109.169921875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Scratch: 0 Skill Point, 2 Power" wrappingWidth="162.595703125" />
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lightning Strike: 1 Skill Point, 3 Power, " />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lightning Strike: 1 Skill Point, 3 Power " />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thunder: 2 Skill Point, 5 Power" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Evolution:" wrappingWidth="140.341796875" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thundermon" textAlignment="CENTER" wrappingWidth="176.64453125" />
