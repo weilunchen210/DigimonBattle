@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\weilun\Coding\digimon backup\DigimonBattle\src\main\scala\DigimonBattle\model\Digimon\Digimon.scala:53:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ => move.power[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
